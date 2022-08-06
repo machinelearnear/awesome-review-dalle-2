@@ -51,9 +51,6 @@ controlled interface, not least due to the fact that a model, once open
 sourced, can be modified and/or be combined with other third party
 tools.[^4]
 
-
-
-
 ### Tipos de modelos generativos
 
 [Mia Tang](https://www.mia-tang.com/about) hizo unas excelentes ilustraciones sobre distintos modelos
@@ -63,22 +60,11 @@ tools.[^4]
 ![Transformer](img-transformer.jpeg)
 ![Diffusion](img-diffusion.jpeg)
 
-### Intro al arte multi-modal hecha por un tipo buena onda
+### Introducción al arte multi-modal hecha por un tipo buena onda
 
 [![Una introducción rápida al arte multi-modal con AI (DALL·E, CLIP, Diffusion, VQGAN)](https://img.youtube.com/vi/K2lA2WxhLnw/0.jpg)](https://www.youtube.com/watch?v=K2lA2WxhLnw)
 
-### "Do models like DALL-E 2 get basic relations (in/on/etc)?"
-
-Colin Conwell y Tomer Ullman lo investigaron y encontraron un par de cosas interesantes
-
-> Relations are basic building blocks of human cognition. Classic and recent work suggests that many relations are early developing, and quickly perceived. Machine models that aspire to human-level perception and reasoning should reflect the ability to recognize and reason generatively about relations. We report a systematic empirical examination of a recent text-guided image generation model (DALL-E 2), using a set of 15 basic physical and social relations studied or proposed in the literature, and judgements from human participants (N = 169). Overall, we find that only ~22% of images matched basic relation prompts. Based on a quantitative examination of people's judgments, we suggest that current image generation models do not yet have a grasp of even basic relations involving simple objects and agents. We examine reasons for model successes and failures, and suggest possible improvements based on computations observed in biological intelligence.
-
-> resumen: https://twitter.com/TomerUllman/status/1554450808569319425
-> abs: https://arxiv.org/abs/2208.00005
-
-![](https://pbs.twimg.com/media/FZIMi4TXgAAFnHv?format=jpg&name=large)
-
-### Como es el proceso de crear una imagen?
+### Cómo es el proceso de crear una imagen?
 
 En [este thread de Twitter](https://twitter.com/amli_art/status/1549555688304623617), el usuario @amli_art explica como es su proceso creativo y técnico para generar una imagen, enfocándose mas que nada en "prompt engineering" o como elegir el texto correcto para generar una nueva imagen. No son los únicos [tips](https://twitter.com/davidad/status/1551143240065228800) sobre lo mismo.
 
@@ -93,6 +79,30 @@ En [este thread de Twitter](https://twitter.com/amli_art/status/1549555688304623
 
 ![](https://pbs.twimg.com/media/FXjg-hjWAAEk3UD?format=jpg&name=large)
 ![](https://pbs.twimg.com/media/FXjeuanWAAEsXLi?format=jpg&name=large)
+
+### "Do models like DALL-E 2 get basic relations (in/on/etc)?"
+
+Colin Conwell y Tomer Ullman lo investigaron y encontraron un par de cosas interesantes
+
+> Relations are basic building blocks of human cognition. Classic and recent work suggests that many relations are early developing, and quickly perceived. Machine models that aspire to human-level perception and reasoning should reflect the ability to recognize and reason generatively about relations. We report a systematic empirical examination of a recent text-guided image generation model (DALL-E 2), using a set of 15 basic physical and social relations studied or proposed in the literature, and judgements from human participants (N = 169). Overall, we find that only ~22% of images matched basic relation prompts. Based on a quantitative examination of people's judgments, we suggest that current image generation models do not yet have a grasp of even basic relations involving simple objects and agents. We examine reasons for model successes and failures, and suggest possible improvements based on computations observed in biological intelligence.
+
+> resumen: https://twitter.com/TomerUllman/status/1554450808569319425
+> abs: https://arxiv.org/abs/2208.00005
+
+![](https://pbs.twimg.com/media/FZIMi4TXgAAFnHv?format=jpg&name=large)
+
+### Todo muy lindo, pero cúanto sale?
+
+Sacado de [la página de OpenAI](https://openai.com/blog/dall-e-now-available-in-beta/)
+
+> In this first phase of the beta, users can buy additional DALL·E credits in 115-credit increments (460 images[1]) for $15 on top of their free monthly credits. One credit is applied each time a prompt is entered and a user hits “generate” or “variations.”. Number of images is approximate. DALL·E generates four images for every natural language prompt. DALL·E’s Edit and Variations features generate three images.
+
+Unos números rápidos
+
+```
+115 (credits) x 4 (image per prompt) = 460 images
+15 (USD) / 460 (images) = $0.032 per image
+```
 
 ### Algunos links para leer con mas tiempo
 
@@ -262,7 +272,7 @@ https://user-images.githubusercontent.com/78419164/183228410-206906f2-6293-478c-
 
 https://user-images.githubusercontent.com/78419164/183228467-b15d1597-74f3-41f0-8a62-fd31906c1a62.mp4
 
-## Que me gustaria ver para el futuro?
+## Qué me gustaría ver para el futuro?
 
 Que se puedan generar NeRFs o "modelos/espacios 3D navegables" de la misma manera que hoy generamos imágenes. Por ejemplo, [tomar esto que hizo](https://twitter.com/karenxcheng/status/1554864997586505729) @karenxcheng usando [instant-ngp (NVIDIA)](https://github.com/NVlabs/instant-ngp/) y usarlo como training data para un próximo "DALLE-NeRF".
 
