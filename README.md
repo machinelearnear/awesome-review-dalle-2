@@ -78,6 +78,22 @@ Colin Conwell y Tomer Ullman lo investigaron y encontraron un par de cosas inter
 
 ![](https://pbs.twimg.com/media/FZIMi4TXgAAFnHv?format=jpg&name=large)
 
+### Como es el proceso de crear una imagen?
+
+En [este thread de Twitter](https://twitter.com/amli_art/status/1549555688304623617), el usuario @amli_art explica como es su proceso creativo y técnico para generar una imagen, enfocándose mas que nada en "prompt engineering" o como elegir el texto correcto para generar una nueva imagen. No son los únicos [tips](https://twitter.com/davidad/status/1551143240065228800) sobre lo mismo.
+
+[Guy Parsons](https://twitter.com/GuyP), siguiendo por ese lado, ha [publicado un libro llamado "DALLE-2 Prompt Book"](https://twitter.com/GuyP/status/1547234780001042432) donde nos da una excelente guia de como escribir buenos prompts para muchos (muchísimos) casos de uso y también una buena intro a las distintas funcionalidades de DALLE-2. Altamente recomendable tenerlo siempre a mano
+
+> The book also explains all the basic DALL·E techniques, like:
+
+> - 🔀 merging multiple images
+> - 🌅 creating landscape, portrait + mural-sized images
+> - 👀 fixing details with inpainting
+> - 🖼 uncropping and 'zooming out'
+
+![](https://pbs.twimg.com/media/FXjg-hjWAAEk3UD?format=jpg&name=large)
+![](https://pbs.twimg.com/media/FXjeuanWAAEsXLi?format=jpg&name=large)
+
 ### Algunos links para leer con mas tiempo
 
 - 📹 [GLIDE: Generá y editá imágenes en segundos en base a lo que escribis (+ Repo)](https://www.youtube.com/watch?v=WG20CnktPbk)
@@ -140,7 +156,23 @@ Pero volviendo al tema de las imágenes, como lo dice Daniel en su [post](https:
 
 ### Que pasa con todo el tema de los sesgos y etc?
 
-OpenAI hizo algunos esfuerzos 
+OpenAI hizo varios cambios antes de hacer público a DALLE-2 y segun ellos
+
+> Based on our internal evaluation, users were 12× more likely to say that DALL·E images included people of diverse backgrounds after the technique was applied. We plan to improve this technique over time as we gather more data and feedback.
+
+Entre las cosas que dicen que se enfocaron, tenemos:
+
+> During the research preview we have taken other steps to improve our safety systems, including:
+
+> - Minimizing the risk of DALL·E being misused to create deceptive content by rejecting image uploads containing realistic faces and attempts to create the likeness of public figures, including celebrities and prominent political figures.
+> - Making our content filters more accurate so that they are more effective at blocking prompts and image uploads that violate our content policy while still allowing creative expression.
+> - Refining automated and human monitoring systems to guard against misuse.
+
+Pero también podemos encontrar [otras opiniones](https://twitter.com/jd_pressman/status/1549523790060605440) donde después de hacer pruebas, encuentran que lo que hace DALLE-2 es simplemente agregar términos como "mujer", "negro", etc. al texto de nuestra prompt para generar resultados mas diversos.
+
+> What I thought OpenAI was doing: Guiding the prior to increase aesthetics, content filter and "de-bias"
+
+> What OpenAI is actually doing: Tacking on "black" and "female" at random to prompts months after initial public access
 
 ## Lo nuevo que está dando vuelta..
 
@@ -190,6 +222,15 @@ Guy Parsons [recientement tweetió](https://twitter.com/GuyP/status/155558339005
 
 > IMO as a visual 'product' Midjourney is easily the most market-ready: you could easily imagine MJ tied into @Pitch or  @Canva, or a poster-printing service: anywhere users want to create good-looking graphics fast (and most of 'em won't want to 'learn prompt engineering' first)
 
+### Make-A-Scene (Meta)
+
+> Recent text-to-image generation methods provide a simple yet exciting conversion capability between text and image domains. While these methods have incrementally improved the generated image fidelity and text relevancy, several pivotal gaps remain unanswered, limiting applicability and quality. We propose a novel text-to-image method that addresses these gaps by (i) enabling a simple control mechanism complementary to text in the form of a scene, (ii) introducing elements that substantially improve the tokenization process by employing domain-specific knowledge over key image regions (faces and salient objects), and (iii) adapting classifier-free guidance for the transformer use case. Our model achieves state-of-the-art FID and human evaluation results, unlocking the ability to generate high fidelity images in a resolution of 512x512 pixels, significantly improving visual quality. Through scene controllability, we introduce several new capabilities: (i) Scene editing, (ii) text editing with anchor scenes, (iii) overcoming out-of-distribution text prompts, and (iv) story illustration generation, as demonstrated in the story we wrote.
+
+> - website: https://ai.facebook.com/blog/greater-creative-control-for-ai-image-generation
+> - abs: https://arxiv.org/abs/2203.13131
+
+https://user-images.githubusercontent.com/78419164/183227452-7b90e0a6-f840-4914-9c42-71928d67d871.mp4
+
 ### Stable difussion in-painting/extending demo (WIP)
 
 Un [laburo interesante](https://twitter.com/genekogan/status/1555184488606564353) que está haciendo Gene Kogan y que lo van a hacer disponible en [Abraham.ai](https://abraham.ai/)
@@ -211,4 +252,18 @@ Nueva librería de Huggingface para modelos de difusión. Mas info sacada del [r
 
 ![](https://pbs.twimg.com/media/FYMuXUHWAAAZ4wV?format=jpg&name=small)
 
+### Comunidad open-source
 
+@deKxi y su laburo con ["DALL-E 2.5D: Depth Warped Zoom Notebook v2"](https://twitter.com/deKxi/status/1555014971137740801)
+
+https://user-images.githubusercontent.com/78419164/183228410-206906f2-6293-478c-a251-3ba32f37b367.mp4
+
+@chris_wizard y su laburo con ["WarpFusion TurboSmooth v0.3.1"](https://twitter.com/chris_wizard/status/1547983659889672193)
+
+https://user-images.githubusercontent.com/78419164/183228467-b15d1597-74f3-41f0-8a62-fd31906c1a62.mp4
+
+## Que me gustaria ver para el futuro?
+
+Que se puedan generar NeRFs o "modelos/espacios 3D navegables" de la misma manera que hoy generamos imágenes. Por ejemplo, [tomar esto que hizo](https://twitter.com/karenxcheng/status/1554864997586505729) @karenxcheng usando [instant-ngp (NVIDIA)](https://github.com/NVlabs/instant-ngp/) y usarlo como training data para un próximo "DALLE-NeRF".
+
+https://user-images.githubusercontent.com/78419164/183228584-0a205f50-5a0e-486a-825d-66509522c288.mp4
