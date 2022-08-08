@@ -241,11 +241,11 @@ Guy Parsons [recientement tweetió](https://twitter.com/GuyP/status/155558339005
 
 https://user-images.githubusercontent.com/78419164/183227452-7b90e0a6-f840-4914-9c42-71928d67d871.mp4
 
-### Stable difussion in-painting/extending demo (WIP)
+### Stable Diffusion Beta
 
-Un [laburo interesante](https://twitter.com/genekogan/status/1555184488606564353) que está haciendo Gene Kogan y que lo van a hacer disponible en [Abraham.ai](https://abraham.ai/)
+[Stability.AI](https://stability.ai/) tiene un nuevo modelo generativo llamado "Stable Diffusion" que logra resultados muy buenos en cuestiones más artísticas. El registro a la beta esta cerrado pero podemos ver algunas imágenes a través de Twitter. Lo interesante es que la intención es hacerlo open-source y es parte de la misma comunidad que se encargó de hacer [LAION-400](https://laion.ai/blog/laion-400-open-dataset/).
 
-https://user-images.githubusercontent.com/78419164/183226631-0d644b56-8fa0-4113-9996-49f07d5cdc8c.mp4
+![stable diffusion](img-stable-difussion.png)
 
 ### 🤗 diffusers: a modular toolbox for diffusion techniques
 
@@ -271,6 +271,10 @@ https://user-images.githubusercontent.com/78419164/183228410-206906f2-6293-478c-
 @chris_wizard y su laburo con ["WarpFusion TurboSmooth v0.3.1"](https://twitter.com/chris_wizard/status/1547983659889672193)
 
 https://user-images.githubusercontent.com/78419164/183228467-b15d1597-74f3-41f0-8a62-fd31906c1a62.mp4
+
+@genekogan y su [laburo](https://twitter.com/genekogan/status/1555184488606564353) con stable difussion in-painting/extending demo que lo van a hacer disponible en [Abraham.ai](https://abraham.ai/) en algún momento.
+
+https://user-images.githubusercontent.com/78419164/183226631-0d644b56-8fa0-4113-9996-49f07d5cdc8c.mp4
 
 ## Qué me gustaría ver para el futuro?
 
