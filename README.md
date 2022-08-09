@@ -51,6 +51,17 @@ controlled interface, not least due to the fact that a model, once open
 sourced, can be modified and/or be combined with other third party
 tools.[^4]
 
+### Resultados
+
+|   |   |
+|---|---|
+![](dalle-01.png)  |  ![](dalle-02.png)
+`a colourful self-portrait illustration of a cute capybara drinking 🧉 mate and working on a laptop as a programmer wearing sunglasses on a light background`  |  `A capybara drinking yerba mate as the explosion of a nebula's star`
+![](dalle-03.png)  |  ![](dalle-04.png)
+`An illustration of a Capybara as the best President of Argentina surrounded by happy crowd in Buenos Aires City, digital art`  |  `A panorama photo of a Capybara wearing dark glasses and programming the solution to all problems the Argentine economy faces at the moment, in the style of Blade Runner 2049`
+![](dalle-05.png)  |  ![](dalle-06.png)
+`A man dressed up as Batman is being interviewed after a car crash during the evening in a sensationalist and melodramatic coverage by an Argentine TV channel`  |  `A psychedelic self-portrait illustration of a corgi as working on a laptop as a programmer wearing sunglasses on a dark background, trending artstation`
+
 ### Tipos de modelos generativos
 
 [Mia Tang](https://www.mia-tang.com/about) hizo unas excelentes ilustraciones sobre distintos modelos
