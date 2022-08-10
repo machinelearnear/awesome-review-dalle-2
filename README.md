@@ -258,6 +258,8 @@ https://user-images.githubusercontent.com/78419164/183227452-7b90e0a6-f840-4914-
 
 ![stable diffusion](img-stable-difussion.png)
 
+El GitHub ya es público! https://github.com/CompVis/stable-diffusion
+
 ### 🤗 diffusers: a modular toolbox for diffusion techniques
 
 Nueva librería de Huggingface para modelos de difusión. Mas info sacada del [repo oficial](https://github.com/huggingface/diffusers)
