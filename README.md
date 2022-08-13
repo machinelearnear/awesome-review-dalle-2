@@ -1,7 +1,10 @@
 # Un review de DALLE-2
 Un repo con links, ideas, comentarios, y otras cosas lindas sobre DALLE-2 y parecidos.
 
-`Disclaimer: Este review se va a quedar muy corto y muy obsoleto, muy rápido.` 
+`Disclaimer: Este review se va a quedar muy corto y muy obsoleto, muy rápido.`
+
+## Video en YouTube
+[![Me dieron acceso a DALLE-2, te muestro como funciona, y vemos lo último en arte generativo](https://img.youtube.com/vi/XIY-Ey08HHM/0.jpg)](https://www.youtube.com/watch?v=XIY-Ey08HHM)
 
 ## Empezando por algún lado: Qué es DALLE-2?
 
